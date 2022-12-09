@@ -11,11 +11,11 @@ import searchReducer from "../reducers";
 const persistConfig = {
   key: "root",
   storage: localStorage,
-  transforms: [
-    encryptTransform({
-      secretKey: process.env.REACT_APP_SECRET_KEY
-    })
-  ]
+//   transforms: [
+//     encryptTransform({
+//       secretKey: process.env.REACT_APP_SECRET_KEY
+//     })
+//   ]
 };
 
 const bigReducer = combineReducers({

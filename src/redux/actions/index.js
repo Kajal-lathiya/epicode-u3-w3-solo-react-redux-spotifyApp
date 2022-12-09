@@ -9,7 +9,7 @@ export const getSearchAPI = (value) => {
       let response = await fetch(
         `https://striveschool-api.herokuapp.com/api/deezer/search?q=${value}`
       );
-      if (resp.ok) {
+      if (response.ok) {
         let result = await response.json();
         dispatch({
           type: GET_SEARCH,
