@@ -1,6 +1,9 @@
-import React from "react";
+import React, {useEffect, useState} from "react";
+import { useDispatch, useSelector } from "react-redux";
 
 const SearchComponent = () => {
+    const dispatch = useDispatch();
+    const redux = useSelector(state => state)
   return (
     <div>
       <main className="body">

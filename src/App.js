@@ -9,8 +9,8 @@ function App() {
     <BrowserRouter>
       <SideBar />
       <Routes>
+        <Route path="/" element={<Homecomponent />} />
         <Route path="/search" element={<SearchComponent />} />
-        <Route path="/home" element={<Homecomponent />} />
       </Routes>
       <FooterComponent />
     </BrowserRouter>

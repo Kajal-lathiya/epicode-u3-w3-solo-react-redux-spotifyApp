@@ -19,7 +19,7 @@ const SideBar = () => {
           >
             <i className="fa-solid fa-house" />
             <div className="w-75 d-flex">
-              <Link className="gotohome" to={"/home"}>
+              <Link className="gotohome" to={"/"}>
                 <div>Home</div>
               </Link>
             </div>
