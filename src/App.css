@@ -733,6 +733,11 @@ hr {
     justify-content: flex-end;
 }
 
+.fixedBottom {
+    position: "fixed";
+    bottom: 0
+}
+
 
 /* added these to the playbar */
 

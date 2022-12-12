@@ -5,7 +5,7 @@ import {
 } from "@reduxjs/toolkit";
 import localStorage from "redux-persist/lib/storage";
 import { persistReducer, persistStore } from "redux-persist";
-import { encryptTransform } from "redux-persist-transform-encrypt";
+// import { encryptTransform } from "redux-persist-transform-encrypt";
 import searchReducer from "../reducers";
 
 const persistConfig = {
